@@ -1,0 +1,108 @@
+.signup-head {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: left;
+    background-repeat: repeat;
+  }
+  .signup-head h2 {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+  }
+  .signup-head .top_head {
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .signup-head .proImg {
+    background-color: #ffffff;
+    align-self: center;
+  }
+
+  .signup-head .form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .signup-head label {
+    background-color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .signup-head .gender label {
+    margin-right: 20px;
+  }
+
+  .signup-head .gender input[type="radio"] {
+    margin-right: 6px;
+  }
+
+  .signup-head input[type="email"],
+  .signup-head input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .signup-head button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .signup-head input[type="firstname"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .signup-head input[type="lastname"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .signup-head p1 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .signup-head p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .signup-head p a {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  @media screen and (min-width: 600px) {
+    form {
+      max-width: 400px;
+    }
+  }

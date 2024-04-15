@@ -1,0 +1,100 @@
+.profile-head {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0.5rem 2rem;
+    overflow-x: scroll;
+}
+
+.profile-head .profile-pic {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-head .profile-pic .right button {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #4318FF;
+    color: white;
+    border-radius: 10px;
+}
+
+.profile-head .profile-pic .left img{
+    height: 100px;
+}
+
+.profile-head .profile-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-top: 2rem;
+}
+
+.profile-head .sec {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 0;
+    margin-right: 2rem;
+}
+
+.profile-head .label {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 0.3rem;
+}
+
+.profile-head .inp input {
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #eceaec;
+}
+
+.profile-head .gender {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.profile-head .gender button {
+    padding: 0.3rem 0rem;
+    border: 1.7px solid rgb(213, 213, 213);
+    width: 100%;
+    margin: 0.2rem 0;
+    border-radius: 10px;
+    color: #c9c9c9;
+}
+
+.profile-head .gender button:hover {
+    color: #000000;
+    border: 1.7px solid #000000;
+}
+
+.profile-head .sec .active button{
+    color: #000000;
+    border: 1.7px solid #000000;
+}
+
+.profile-head .male {
+    grid-row: 1/span 1;
+    grid-column: 1/span 1;
+    margin-right: 0.6rem;
+}
+
+.profile-head .female {
+    grid-row: 1/span 1;
+    grid-column: 2/span 1;
+}
+
+.profile-head .other {
+    grid-column: 1/span 2;
+}
+
+.profile-head .txtar {
+    padding: 0.5rem 0.4rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,99 @@
+.providers-home-head .schedule {
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.providers-home-head .schedule button {
+    cursor: pointer;
+    padding: 0.4rem 1rem 0.7rem 1rem;
+    color: #ffffff;
+    background-color: #4318FF;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.providers-home-head .schedule span {
+    font-size: x-large;
+}
+
+.providers-home-head .upcoming {
+    padding: 2rem 0px;
+}
+
+.providers-home-head .title {
+    font-size: large;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+.providers-home-head .appointments{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.providers-home-head .card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    min-width: 17rem;
+}
+
+.providers-home-head .tim {
+    padding-bottom: 0.6rem;
+}
+
+.providers-home-head .tim span {
+    padding: 0.3rem 0.45rem;
+    font-size: small;
+    border-radius: 30px;
+}
+
+.providers-home-head .urgent span{
+    background-color: #f5454533;
+    color: #F54545;
+}
+
+.providers-home-head .late span{
+    background-color: #45c9f525;
+    color: #45CAF5;
+}
+
+.providers-home-head .done span{
+    color: #11C44E;
+    background-color: #11c44d27;
+}
+
+.providers-home-head .drname {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    white-space: nowrap;
+}
+
+.providers-home-head .line {
+    height: 1px;
+    background-color: #cdcdcd;
+}
+
+.providers-home-head .details-col {
+    padding: 1rem 0rem;
+}
+
+.providers-home-head .details {
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.3rem 0.3rem;
+}

@@ -1,0 +1,114 @@
+
+.schedule-appointment-form {
+    background-color: #edebec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: left;
+    background-repeat: repeat;
+}
+.schedule-appointment-form  h2 {
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+.schedule-appointment-form  .top_head {
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schedule-appointment-form  .proImg {
+    align-self: center;
+}
+
+.schedule-appointment-form  .form {
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.schedule-appointment-form  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.schedule-appointment-form  input[type="full_name"],
+.schedule-appointment-form  input[type="Num"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.schedule-appointment-form  .submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.schedule-appointment-form .ss .btn{
+    color: #b4b4b4;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* border: 1.3px solid black; */
+    border: 1.6px solid rgb(207, 207, 207);
+    margin-right: 0.5rem;
+}
+
+.schedule-appointment-form .ss .btn:hover {
+    border: 1.6px solid black;
+    color: #000000;
+}
+
+.schedule-appointment-form .ss .btn2 {
+    color: #000000;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1.6px solid black;
+    margin-right: 0.5rem;
+    
+}
+
+.schedule-appointment-form  p1 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+.schedule-appointment-form  p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+.schedule-appointment-form  p a {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  @media screen and (min-width: 600px) {
+   .schedule-appointment-form .form {
+      max-width: 400px;
+    }
+  }

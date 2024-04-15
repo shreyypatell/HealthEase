@@ -1,0 +1,65 @@
+.verify-head {
+    background-color: #edebec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: left;
+    background-repeat: repeat;
+  }
+  .verify-head h2 {
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+  }
+  .verify-head .top_head {
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .verify-head .proImg {
+    align-self: center;
+  }
+
+  .verify-head .form {
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .verify-head label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .verify-head input[type="otp"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .verify-head button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  @media screen and (min-width: 600px) {
+    form {
+      max-width: 400px;
+    }
+  }

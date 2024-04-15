@@ -1,0 +1,89 @@
+.login-head {
+    background-color: #edebec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: left;
+    background-repeat: repeat;
+  }
+  .login-head h2 {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+  }
+  .login-head .top_head {
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .login-head .proImg {
+    align-self: center;
+  }
+
+  .login-head .form {
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .login-head label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+  .login-head input[type="email"],
+  .login-head input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .login-head .login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .login-head p1 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .login-head p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .login-head p a {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .login-head .forgot_password {
+    border-width: 0px;
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(68, 0, 178);
+    cursor:pointer;
+  }
+  @media screen and (min-width: 600px) {
+    form {
+      max-width: 400px;
+    }
+  }

@@ -1,0 +1,117 @@
+.schedule-appointment-providers {
+    background-color: #edebec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: left;
+    background-repeat: repeat;
+}
+.schedule-appointment-providers h2 {
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+.schedule-appointment-providers .top_head {
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schedule-appointment-providers .proImg {
+    align-self: center;
+}
+
+.schedule-appointment-providers .card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem 0.2rem;
+    background-color: #fafafa;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+    font-size: 7px;
+    height: fit-content;
+}
+
+.schedule-appointment-providers .drname {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.schedule-appointment-providers .line {
+    height: 0.5px;
+    background-color: #dddddd;
+}
+
+.schedule-appointment-providers .details-col {
+    padding: 0.1rem 0rem;
+}
+
+.schedule-appointment-providers .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schedule-appointment-providers .head {
+    margin-right: 1rem;
+}
+
+.schedule-appointment-providers .appointments{
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.schedule-appointment-providers .schedule-appointment {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2rem auto 0 auto;
+    background-color: #ffffff;
+    align-items:stretch;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.094);
+}
+
+.schedule-appointment-providers .tit {
+    font-size: large;
+    font-weight: bolder;
+    align-self: flex-start;
+}
+
+.schedule-appointment-providers .det1 {
+    align-self:flex-start;
+    font-size: small;
+    margin: 0.7rem 0;
+}
+
+.schedule-appointment-providers .det2 {
+    align-self:flex-start;
+    font-size: small;
+    font-weight: bold;
+    margin: 0.7rem 0;
+}
+
+.schedule-appointment-providers .schedule-appointment button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.schedule-appointment-providers .img-card {
+    align-self: center;
+    margin-bottom: 5px;
+    max-width: 7rem;
+}

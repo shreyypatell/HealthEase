@@ -1,0 +1,19 @@
+{
+    "signup" : "http://localhost:5000/api/user/signup",
+    "verify" : "http://localhost:5000/api/user/verify",
+    "login" : "http://localhost:5000/api/user/login",
+    "dashboard" : "http://localhost:5000/api/user/dashboard",
+    "logout" : "http://localhost:5000/api/user/logout",
+    "pastAppointment" : "http://localhost:5000/api/appointment/past_appointment",
+    "upcomingAppointment" : "http://localhost:5000/api/appointment/upcoming_appointment",
+    "scheduleAppointment" : "http://localhost:5000/api/appointment/schedule_appointment",
+    "cancelAppointment" : "http://localhost:5000/api/appointment/cancel_appointment",
+    "getProviders" : "http://localhost:5000/api/provider/get",
+    "getProvidersDay" : "http://localhost:5000/api/provider/getDay",
+    "updateInfo" : "http://localhost:5000/api/user/update_info",
+    "forgot_password" : {
+        "email" : "http://localhost:5000/api/user/sendOTP",
+        "otp" : "http://localhost:5000/api/user/verify_forgot_password",
+        "changePassword" : "http://localhost:5000/api/user/change_password"
+    }
+}
